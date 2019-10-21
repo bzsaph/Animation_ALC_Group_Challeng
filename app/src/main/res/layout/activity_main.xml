@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:text="Fadding"
+        android:id="@+id/button1"
+        android:layout_width="200dp"
+        android:layout_height="45dp" />
+
+    <Button
+        android:id="@+id/second2"
+        android:layout_below="@+id/button1"
+        android:layout_width="200dp"
+        android:text="second"
+        android:layout_height="45dp" />
+    <Button
+        android:id="@+id/second3"
+        android:layout_below="@+id/second2"
+        android:layout_width="200dp"
+        android:text="second"
+        android:layout_height="45dp" />
+    <Button
+        android:id="@+id/second4"
+        android:layout_below="@+id/second3"
+        android:layout_width="200dp"
+        android:text="second"
+        android:layout_height="45dp" />
+
+
+
+</RelativeLayout>
